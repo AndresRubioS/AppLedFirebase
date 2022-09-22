@@ -4,14 +4,15 @@ import pyrebase
 import RPi.GPIO as GPIO
 from time import sleep
 
-config = {  "apiKey": "AIzaSyARnyyAViCIbW_UcRgyMthZFrlzPmhaVuI",
-            "authDomain": "encenderled-c8457.firebaseapp.com",
-            "databaseURL": "https://encenderled-c8457-default-rtdb.europe-west1.firebasedatabase.app",
+config = {  
+            "apiKey": "0",
+            "authDomain": "0",
+            "databaseURL": "0",
            
-            "storageBucket": "encenderled-c8457.appspot.com"
+            "storageBucket": "0"
             
                 
-                }
+           }
 
 
 firebase = pyrebase.initialize_app(config)
